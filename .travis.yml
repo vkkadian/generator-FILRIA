@@ -3,5 +3,5 @@ node_js:
   - '0.10'
 before_install:
   - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-filria' ]; then cd .. && eval "mv $currentfolder generator-filria" && cd generator-filria; fi
+  - if [ "$currentfolder" != 'generator-FILRIA' ]; then cd .. && eval "mv $currentfolder generator-FILRIA" && cd generator-FILRIA; fi
 
