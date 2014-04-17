@@ -23,7 +23,7 @@ var FilriaGenerator = yeoman.generators.Base.extend({
     this.log(this.yeoman);
 
     // replace it with a short and sweet description of your generator
-    this.log(chalk.magenta('You\'re using the fantastic Filria generator.'));
+    this.log(chalk.magenta('You\'re using the fantastic FILRIA generator.'));
 
     var prompts = [{
       type: 'confirm',
